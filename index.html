@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./input/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-[#0e0e0e] overflow-x-hidden">
+    <!-- <div class="w-20 h-10 m-2 bg-[#0e0e0e] shadow-[0_0_10px_#9333ea,0_0_5px_#ffffff] rounded-lg hover:scale-110 transition-all hover:shadow-[0_0_20px_#9333ea,0_0_15px_#ffffff] "> -->
+    <nav class="w-full h-10 z-50 backdrop-blur-lg flex justify-center text-amber-50 text-lg gap-4 p-3 ">
+        <a href="">Works</a>
+        <a href="">About</a>
+        <a href="">Call to action</a>
+    </nav>
+    <div class="flex flex-col mt-12 gap-12">
+        <header id="hero-sect" style="background-image:url('./resources/2.jpg')" class="bg-[url('./resources/0.jpg')] bg-cover bg-center">
+            <!-- <img src="./resources/0.jpg" alt="sample" class="w-full h-full object-cover"> -->
+            <div id="hero-content" class="text-center text-amber-50 font-mono w-full flex flex-col md:flex-row items-center justify-center gap-12">
+
+                <div id="left">
+                    <h1 class="font-bold text-2xl">Hamza Merazi: A Video Editor</h1>
+                    <p> I help podcasts get more engagement using short form content</p>
+                    <a href="haha"><button class="cursor-pointer p-3 m-2 bg-[#0e0e0e] shadow-[0_0_10px_#9333ea,0_0_5px_#ffffff] rounded-lg hover:scale-110 transition-all hover:shadow-[0_0_20px_#9333ea,0_0_15px_#ffffff] ">Work With Me</button></a>
+                </div>
+                <div class="bg-amber-400 w-64 h-64 rounded-full overflow-hidden">
+                    <img src="./resources/hamza.jpg" alt="Hamza Merazi" class="w-full h-full object-cover" >
+                </div>
+                
+            </div>
+        </header>
+        <section id="projects-sect">
+            <div class="carousel bg-[url('./resources/0.jpg')] bg-cover bg-center" style="background-image:url('./resources/0.jpg')">
+                <div class="flex justify-evenly p-2">
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel0.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="group aspect-9/16 w-48 bg-amber-600">
+                         <video muted loop preload="metadata" class="w-full h-full object-cover">
+                            <source src="./resources/reel5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="about-sect">
+            <div class="carousel bg-[url('./resources/2.jpg')] bg-cover bg-center p-8" style="background-image:url('./resources/5.jpg')">
+                
+                <div class="text-amber-50 w-[50%]">
+                    <p>Hamza Merazi is a video editor who turns raw footage into tight, scroll-stopping stories. He focuses on crafting edits that feel fast, clean, and intentional while still keeping personality alive in every frame. His goal is simple: make viewers stop scrolling and actually feel something from the content.</p>
+                </div>
+            </div>
+        </section>
+        <section id="experience-sect">
+            <div class="carousel bg-[url('./resources/2.jpg')] bg-cover bg-center p-8 flex justify-end" style="background-image:url('./resources/6.jpg')">
+                <div class="text-amber-50 w-[50%]">
+                    <p>With /insert years of experience> in video editing, Hamza has worked across /insert niches like gaming, fitness, commercials, social media content>. He has handled projects ranging from short-form viral clips to longer structured edits, adapting his style depending on the platform and audience.</p>
+                </div>
+            </div>
+        </section>
+        <section id="proofs-sect">
+            <div class="carousel bg-[url('./resources/2.jpg')] bg-cover bg-center" style="background-image:url('./resources/7.jpg')">
+                <div class="text-amber-50 w-[50%] p-8">
+                    <p>Hamza is especially strong in /insert specialty like short-form content, viral reels, cinematic edits, motion-heavy content>. He constantly studies trends on /insert platform like TikTok, YouTube, Instagram Reels> to understand what keeps audiences watching.</p>
+                </div>
+            </div>
+        </section>
+        <footer class="border-t-2 border-amber-50 border-solid text-amber-50 flex justify-center gap-4 p-4">
+            <p>My socials: </p>
+            <div class="flex gap-4 text-xl">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+ <!-- npx @tailwindcss/cli -i ./css/input.css -o ./input/output.css --watch -->
